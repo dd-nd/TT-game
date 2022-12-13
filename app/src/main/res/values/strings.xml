@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tic Tac toe</string>
+    <string name="btn_1">ИГРАТЬ</string>
+    <string name="btn_2">ИНСТРУКЦИЯ</string>
+    <string name="game">Игра "Крестики-нолики"</string>
+    <string name="helper"> <br>Игра ведется на сетке размером 3 на 3 квадрата. Вы - X, ваш друг - O. </br>
+        <br>Игроки по очереди ставят свои метки в пустые квадраты. Первый игрок, получивший 3 совпадения подряд (вверх, вниз, поперек или по диагонали), становится победителем. </br>
+        <br>Когда все 9 квадратов заполнены, игра окончена. Если ни у одного игрока не наберется 3 совпадения подряд, игра заканчивается вничью.</br>
+    </string>
+    <string name="status_bar_1">ИГРОК 1: 0</string>
+    <string name="status_bar_2">ИГРОК 2: 0</string>
+    <string name="back">Назад</string>
+    <string name="reset">Заново</string>
+</resources>

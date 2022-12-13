@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="350dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/startLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="70dp">
+
+        <Button
+            android:id="@+id/button_single"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:width="300dp"
+            android:height="60dp"
+            android:background="@drawable/btn_pressed"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/btn_1"
+            android:textSize="20sp"
+            android:textColor="@color/text"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:width="300dp"
+            android:height="60dp"
+            android:background="@drawable/btn_pressed"
+            android:text="@string/btn_2"
+            android:textSize="20sp"
+            android:textColor="@color/text"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>
