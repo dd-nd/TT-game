@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//  Скрыть верхнюю панель
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         button_singule.setOnClickListener(oclButton_single);
-//
+//  Подключение HelpActivity к кнопке
         Button button_help = (Button) findViewById(R.id.button_help);
         View.OnClickListener oclButton_help = new View.OnClickListener() {
             @Override
